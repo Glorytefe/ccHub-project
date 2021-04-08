@@ -1,0 +1,72 @@
+/*  */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+/* container styling */
+.container {
+  background-color: RGB(147, 29, 139, 0.2);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* calc styling */
+.calc {
+  max-width: 400px;
+  width: 100%;
+  margin: auto;
+  padding: 0 10px;
+  font-size: 20px;
+}
+/* top */
+.top {
+  background-color: rgba(252, 252, 252, 0.8);
+  width: 100%;
+  min-height: 100px;
+  border-radius: 10px 10px 0 0;
+  padding: 15px;
+  font-weight: 900;
+}
+
+.top .res1,
+.top .res2 {
+  text-align: right;
+  overflow: hidden;
+  padding: 10px 0;
+}
+
+.top .temp {
+  opacity: 0.4;
+}
+/* content */
+.content {
+  background-color: rgba(147, 29, 139, 0.4);
+  border-radius: 0 0 10px 10px;
+}
+/* all keys */
+.allkeys {
+  color: #ffffff;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.allkeys div {
+  opacity: 0.8;
+  font-weight: 700;
+  padding: 20px 0;
+  text-align: center;
+  border: 1px solid rgba(218, 199, 217, 0.6);
+  cursor: pointer;
+}
+
+.allkeys div:hover {
+  background-color: rgba(147, 29, 139, 0.5);
+}
+
+.allkeys .col {
+  background-color: rgba(134, 120, 133, 0.5);
+}
