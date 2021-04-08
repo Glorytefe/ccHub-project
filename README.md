@@ -17,4 +17,4 @@ This simple calculator was built using JavaScript(pure JavaScript)
  
 *CSS (style)
 
-*JavaScript(Logic of calculator0
+*JavaScript(Logic of calculator)
