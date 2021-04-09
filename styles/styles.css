@@ -1,4 +1,4 @@
-/*  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
 * {
   box-sizing: border-box;
@@ -12,6 +12,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  font-family: 'Poppins', sans-serif;
 }
 
 /* calc styling */
@@ -36,15 +37,20 @@
 .top .res2 {
   text-align: right;
   overflow: hidden;
-  padding: 10px 0;
+  height: 30px;
+  letter-spacing: 2px;
+  /* padding: 1px 0; */
 }
 
+.top .res1,
 .top .temp {
   opacity: 0.4;
+  font-size: 15px;
+  height: 30px;
 }
 /* content */
 .content {
-  background-color: rgba(147, 29, 139, 0.4);
+  background-color: rgba(147, 29, 139, 0.7);
   border-radius: 0 0 10px 10px;
 }
 /* all keys */
@@ -64,7 +70,7 @@
 }
 
 .allkeys div:hover {
-  background-color: rgba(147, 29, 139, 0.5);
+  background-color: rgba(147, 29, 139, 0.8);
 }
 
 .allkeys .col {
